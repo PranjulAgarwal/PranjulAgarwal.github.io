@@ -3,10 +3,11 @@ body {
 }
 
 .Iam {
-  padding: 0.5em 5em;
+  padding: 0.5em 0.5em;
   font: normal 40px/50px Montserrat, sans-serif;
   color: #999;
-  margin-left: 100px;
+  text-align: center;
+  position: relative;
 }
 .Iam p {
   height: 50px;
