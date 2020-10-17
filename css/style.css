@@ -85,3 +85,23 @@ body {
     60% { top: -150px; }
     80% { top: -200px; }
 }
+@media screen and (max-width: 600px) {
+  div.Iam {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 350px) {
+  div.Iam {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 270px) {
+  div.Iam {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 200px) {
+  div.Iam {
+    display: none;
+  }
+}
