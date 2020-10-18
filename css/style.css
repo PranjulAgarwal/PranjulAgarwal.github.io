@@ -90,6 +90,11 @@ body {
     font-size: 30px;
   }
 }
+@media screen and (max-width: 390px) {
+  div.Iam {
+    font-size: 25px;
+  }
+}
 @media screen and (max-width: 350px) {
   div.Iam {
     font-size: 20px;
