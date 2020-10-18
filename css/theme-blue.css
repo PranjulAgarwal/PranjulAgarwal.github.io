@@ -57,12 +57,9 @@ h2 {
   padding: 40px;
   min-height: 330px;
   border-radius: 5px;
-}
-
-.skills, .languages,
-.contact, .experience {
   margin-top: 30px;
 }
+
 
 @font-face {
     font-family: 'Proxima';
