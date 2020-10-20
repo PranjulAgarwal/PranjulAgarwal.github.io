@@ -149,6 +149,28 @@ header hr {
   border-color: #3366CC;
   width: 100px;
 }
+/*Profile Pic Animation*/
+.shake:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
 
 /* about section */
 .about {
@@ -172,6 +194,22 @@ header hr {
   display: inline-block;
   font-weight: normal;
   padding-bottom: 6px;
+}
+.progress{
+    -webkit-animation: progressBar 3s ease-in-out;
+    -webkit-animation-fill-mode:both; 
+    -moz-animation: progressBar 3s ease-in-out;
+    -moz-animation-fill-mode: both; 
+}
+
+@-webkit-keyframes progressBar {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+
+@-moz-keyframes progressBar {
+  0% { width: 0; }
+  100% { width: 100%; }
 }
 
 /* education section */
@@ -233,6 +271,16 @@ header hr {
   display: inline-block;
 }
 
+/*Animation*/
+.zoom {
+  transition: transform .1s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(2); /* (200% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 /* footer section */
 footer {
   color: #f9f9f9;
@@ -260,7 +308,7 @@ footer {
   height: 40px;
   line-height: 40px;
   text-align: center;
-  transition: all 0.4s ease-in;
+  transition: all 0.2s ease-in;
   position: relative;
   bottom: 10px;
   top: 10px;
@@ -268,6 +316,7 @@ footer {
 .social-icons li a:hover {
   background: #202020;
   color: #fff;
+  transform: scale(1.2);
 }
 
 @media ( max-width: 980px ) {
