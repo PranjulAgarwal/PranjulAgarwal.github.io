@@ -317,6 +317,10 @@ footer {
   background: #202020;
   color: #fff;
   transform: scale(1.2);
+
+  color: #60A9F0;
+  box-shadow: 0 0 5px #60A9F0;
+  text-shadow: 0 0 5px #60A9F0;
 }
 
 @media ( max-width: 980px ) {
