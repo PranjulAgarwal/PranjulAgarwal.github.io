@@ -1,5 +1,5 @@
 html, body {
-  margin:0;border:0;padding:0;
+  margin:0;border:0;padding-top:0;
   font-size:16px;
   font-family:'Proxima';
   overflow-x:hidden;
@@ -39,12 +39,9 @@ h2 {
   box-shadow: 2px 2px #000;
 }
 
-.shadow {
-  text-shadow: 1px 1px #000;
-}
-
 .tm-title {
   color: #3366CC;
+  text-shadow: 1px 1px #000;
 }
 
 .white {
@@ -154,6 +151,9 @@ header hr {
   background: rgba(0, 0, 0, 0.3);
 }
 
+.gallery img{
+}
+
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
   10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -210,27 +210,19 @@ header hr {
 
 /* education section */
 .education {
-  padding: 10px;
   background: #fff;
   color: #000;
 }
 .education .education-content {
   font-size: 15px;
-  margin-left: 30px;
 }
 .education h2 {
-  margin-left: 30px;
-}
-.education h4 {
-  padding: 2px;
 }
 .education h5 {
   display: inline-block;
-  margin-top: 5px; 
 }
 .education h6 {
   display: inline-block;
-  margin-top: 5px; 
 }
 
 

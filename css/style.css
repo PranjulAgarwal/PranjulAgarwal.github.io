@@ -1,11 +1,6 @@
-body {
-  background: #2d2d2d;
-}
-
 .Iam {
   padding: 0.5em 0.5em;
   font: normal 40px/50px Montserrat, sans-serif;
-  color: #999;
 }
 .Iam p {
   height: 50px;

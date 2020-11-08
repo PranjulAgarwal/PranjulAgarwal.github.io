@@ -9,7 +9,7 @@
 	<meta name="description" content="">
 
 	<!-- stylesheet css -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/theme-blue.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -26,37 +26,34 @@
 </div>
 
 <!-- nav-bar section -->
-<nav class="navbar navbar-inverse navbar-fixed-top">
-	<div class="container-fluid">
-	  <!-- Brand and toggle get grouped for better mobile display -->
-	  <div class="navbar-header">
-		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		  <span class="sr-only">Toggle navigation</span>
-		  <span class="icon-bar"></span>
-		  <span class="icon-bar"></span>
-		  <span class="icon-bar"></span>
-		</button>
-		<a class="navbar-brand" href="#">Portfolio</a>
-	  </div>
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon"></span>
+	</button>
+	<h3 class="navbar-brand">Portfolio</h3>
   
-	  <!-- Collect the nav links, forms, and other content for toggling -->
-	  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		<ul class="nav navbar-nav navbar-right">
-		  <li><a href="./index.html"><span class="fa fa-home fa-lg"></span> Home </a></a></li>
-		  <li class="active"><a href="#"><span class="fa fa-picture-o fa-lg"></span> Gallery </a></a></li>
-		  <li class="dropdown">		
-			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Contact <span class="caret"></span></a>
-			<ul class="dropdown-menu">
-				<li><a href="https://www.facebook.com/pranjul.agarwal.129/"><span class="fa fa-facebook fa-lg"></span> Facebook </a></li>
-				<li><a href="https://www.linkedin.com/in/pranjul-agarwal-2000"><span class="fa fa-linkedin fa-lg"></span> LinkedIn </a></li>
-				<li><a href="https://twitter.com/PranjulAgarwal6"><span class="fa fa-twitter fa-lg"></span> Twitter </a></li>
-				<li><a href="https://github.com/PranjulAgarwal"><span class="fa fa-github fa-lg"></span> GitHub </a></li>
-				<li><a href="https://instagram.com/me_pranjul_agarwal"><span class="fa fa-instagram fa-lg"></span> Instagram </a></li>
-			</ul>
-		  </li>
+	<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+		<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+			<li class="nav-item">
+				<a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home </a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="#"><span class="fa fa-picture-o fa-lg"></span> Gallery <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Contact
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					<a class="dropdown-item" href="https://www.facebook.com/pranjul.agarwal.129/"><span class="fa fa-facebook fa-lg"></span> Facebook </a>
+					<a class="dropdown-item" href="https://www.linkedin.com/in/pranjul-agarwal-2000"><span class="fa fa-linkedin fa-lg"></span> LinkedIn </a>
+					<a class="dropdown-item" href="https://twitter.com/PranjulAgarwal6"><span class="fa fa-twitter fa-lg"></span> Twitter </a>
+					<a class="dropdown-item" href="https://github.com/PranjulAgarwal"><span class="fa fa-github fa-lg"></span> GitHub </a>
+					<a class="dropdown-item" href="https://instagram.com/me_pranjul_agarwal"><span class="fa fa-instagram fa-lg"></span> Instagram </a>
+				</div>
+			</li>
 		</ul>
-	  </div><!-- /.navbar-collapse -->
-	</div><!-- /.container-fluid -->
+	</div>
 </nav>
 
 <!-- header section -->
@@ -95,7 +92,7 @@
 
 <!-- javascript js -->	
 <script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>	
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>	
 <script src="js/jquery.backstretch.min.js"></script>
 <script src="js/custom.js"></script>
 
